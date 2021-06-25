@@ -91,6 +91,15 @@ class Schedule:
                     self._classNumb += 1
                     if courses[j].get_type()=="TH":
                         randomIndex=rnd.randrange(0,len(room_time))
+			
+# 			this is the algorithm
+
+			for class in yourinstance(depts[i],courses[j]) 
+			if newClass.set_meetingTime(room_time[randomIndex][1])==class.meetingTime
+			 continue
+			
+# 			algorithm ends here
+			
                         newClass.set_meetingTime(room_time[randomIndex][1])
                         newClass.set_room(room_time[randomIndex][0])
                         newClass.set_instructor(courses[j].get_instructors()[rnd.randrange(0,len(courses[j].get_instructors()))])
